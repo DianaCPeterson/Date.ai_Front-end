@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 10px;
+}
+
+.Age {
+  width: 15px;
+}
+
+.RatingInput {
+  width: 35px;
+}
+
+.Caption {
+  height: 70px;
+}
+
+.match-card {
+    display: flexbox;
+    width: 250px;
+    height: 600px;
+    float:left;
+    margin:1rem;
+    padding:1rem;
+    border-style: ridge;
+    border-color: black;
+    background-color: rgb(255, 247, 196);
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.img {
+  max-height: 50%;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  }
+
+.video-responsive {
+  max-height: 25%;
+  max-width: 25%;
+}
+
+.abouthead {
+  text-align: center;
+}
+
+.about {
+  text-align: left
+}
+
+.AiInput {
+  width: 500px;
+  height: 300px;
+}
+
+.ProfileImage {
+  width: 400px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+.profile {
+  display: flex;
+  padding-top: 8px;
+  padding-right: 12px;
+}
+
+.ProfileText {
+  padding-right: 7px;
+}
+
+.ProfileText {
+  padding-right: 7px;
+}
+
+.about {
+  padding-right: 7px;
+}
